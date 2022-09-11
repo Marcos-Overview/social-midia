@@ -51,3 +51,23 @@ iframe#tela{
 
 
 }
+
+section#redes-sociais > a > img {
+    width: 50px; /*Como é um quadrado vc não precisa colocar pra diminuir a altura pois ja vai automaticamente*/
+    margin: 10px; /*o padding tbm funcionaria*/
+    border-radius: 50%; /*Deixar redondo os icones*/
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.425) ;
+    box-sizing: border-box; /*a caixa fazer parte do conteudo e não mexer todos os icones quando passar o mouse em cima*/
+}
+
+section#redes-sociais{
+    text-align: right;
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.556);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.603);
+    transition: transform .3s, border .5s; /*temorizar*/
+    
+}
