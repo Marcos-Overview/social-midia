@@ -40,6 +40,14 @@ section#telefone{
     left: 50%;  
     transform: translate(-50%, -50%); /*- metade p esquerda e pra cima*/
 
+}
+
+iframe#tela{
+    position: relative; /*poder deslocar a imagem em cima de outra*/
+    top: 80px; /*1º posiciona em relação ao celular*/
+    left: 24px; /*1º posiciona em relação ao celular*/
+    width: 265px; /*2º alinha altura e comprimento em relação ao celular*/
+    height: 471px; /*2º alinha altura e comprimento em relação ao celular*/
 
 
 }
