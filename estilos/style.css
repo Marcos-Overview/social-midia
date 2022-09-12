@@ -45,8 +45,8 @@ section#telefone{
 iframe#tela{
     position: relative; /*poder deslocar a imagem em cima de outra*/
     top: 80px; /*1º posiciona em relação ao celular*/
-    left: 24px; /*1º posiciona em relação ao celular*/
-    width: 269px; /*2º alinha altura e comprimento em relação ao celular*/
+    left: 22px; /*1º posiciona em relação ao celular*/
+    width: 267px; /*2º alinha altura e comprimento em relação ao celular*/
     height: 471px; /*2º alinha altura e comprimento em relação ao celular*/
 
 
