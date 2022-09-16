@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+body{
+    background: url('imagens/fundo-madeira.jpg') no-repeat top center;
+    background-size: cover;
+}
+
+main{
+    height: 100vh;
+    position: relative; /*deixar o telefone centralizar em cima do main*/
+    /*background-color: green;*/
+}
+
+section#telefone{
+    height: 627px;
+    width: 311px;
+    /*background-color: blue;*/
+    position: absolute; /*poder centralizar em cima do main*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url('./imagens/frame-iphone.png') no-repeat ;
+}
+
+iframe#tela{
+    position: relative; /*conseguir mexer a tela*/
+    left: 23px;
+    top: 79px;
+    width: 267px;
+    height: 471px;
+
+}
+
+section#redes-sociais img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+section#redes-sociais {
+    text-align: right;
+}
